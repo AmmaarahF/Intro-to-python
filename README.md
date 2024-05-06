@@ -58,4 +58,27 @@ Operators
 ---------------------------
 - Operators are instructions that perform operations on variables and values in Python.
 - They are used to manipulate and perform actions on data.
+- eg. 1 + 1 // Output will be 2 
+
+
+Control Flow
+-----------------------------
+- The if statement is one of the three main types of control flow in programming, and it allows you to execute a block of code only if a certain condition is met.
+- In Python, you use the if statement like this: "a = True, if a: print It is true." 
+> If the condition is true, the indented code under the if statement will be executed.
+
+Functions
+-------------------------------
+-  is like a machine that takes inputs and produces outputs.
+- functions can be defined using the "def" keyword followed by the function name and arguments in parentheses.
+- the "return" keyword is used to specify the output.
+
+Classes and Objects
+--------------------------------
+- When we define a class, we use an uppercase letter for the class name, and we start defining all the functions and attributes inside the class definition. 
+- use 'self' as 'this' property
+
+
+Ints and Floats
+----------------------------------
 - 
