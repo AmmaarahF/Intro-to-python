@@ -69,7 +69,7 @@ Control Flow
 
 Functions
 -------------------------------
--  is like a machine that takes inputs and produces outputs.
+- is like a machine that takes inputs and produces outputs.
 - functions can be defined using the "def" keyword followed by the function name and arguments in parentheses.
 - the "return" keyword is used to specify the output.
 
@@ -79,6 +79,25 @@ Classes and Objects
 - use 'self' as 'this' property
 
 
-Ints and Floats
-----------------------------------
-- 
+Anatomy of a Function
+-------------------------------
+- Functions are composed of a name and parameters.
+- Programs involve systems, tasks, objects, and interacting components.
+
+
+*args
+-----------------------------
+-  If we want to allow users to pass in any number of variables, use the asterisk symbol before the argument name to create a pointer to the inputted variables.
+-   By adding the asterisk before args, Python understands that the variable name is just a reference to the arguments being passed in.
+- This trick works only for positional arguments, not keyword arguments.
+- If a keyword argument is passed in, an "unexpected keyword argument" error will occur.
+
+
+**kwargs
+-----------------------------
+- In order to handle keyword arguments, a method called kwargs can be used.
+- Kwags is short for keyword arguments.
+- Print kwargs to see that the keyword arguments are now stored as a dictionary instead of a tuple.
+- This makes sense because keyword arguments have keys and values and can be passed in any order, so a dictionary is a more appropriate data structure for referencing them.
+
+
