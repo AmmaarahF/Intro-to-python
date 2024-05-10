@@ -100,4 +100,39 @@ Anatomy of a Function
 - Print kwargs to see that the keyword arguments are now stored as a dictionary instead of a tuple.
 - This makes sense because keyword arguments have keys and values and can be passed in any order, so a dictionary is a more appropriate data structure for referencing them.
 
+Variables and Scope
+------------------------------
+- Python has two types of variables: local variables, defined within a function, and global variables, defined outside the function within the main code block.
+
+
+Function Scope
+-----------------------------
+- the method called <b>locals()</b> , is utilized to print out a dictionary containing all the variables passed into the function, whether provided as positional or keyword arguments.
+- The name locals refers to the fact that the function retrieves the variables that are accessible locally within the function's scope.
+- Variables defined within a function's scope are available throughout that function, but attempting to reference them outside their scope will result in an error.
+
+- The built-in function <b>globals()</b> in Python allows retrieval of all global variables, providing access to variables defined outside the current function's scope.
+- This function enables accessing global variables from within a function, offering flexibility and convenience in programming tasks.
+- Running the code may result in numerous items displayed by the globals() function, including Python's pre-built variables and variables related to classes and packages.
+
+Global and Local Scope
+-----------------------------
+- Functions can be declared within other functions, such as the inner function in function one, but they can only be called within the parent function. Attempting to call them outside results in a syntax error.
+
+Functions As Variables
+-----------------------------
+
+Variables as Functions
+-----------------------------
+- Both variables and functions have names and associated data.
+- For functions, this data includes information about required parameters and the lines of instructions to be executed.
+
+Viewing Function Data With  __code__
+-------------------------------------------------
+- The "code" attribute of Python function objects can be used to confirm that functions are just variables in Python.
+
+Lambda Functions
+-------------------------------
+- These are a way to represent a function without giving it a variable name.
+- Lambda functions can come in handy when you need to pass a function as an argument to another Python function, such as the sorted function that sorts a list of values.  
 
