@@ -121,6 +121,7 @@ Global and Local Scope
 
 Functions As Variables
 -----------------------------
+<br>
 
 Variables as Functions
 -----------------------------
@@ -136,3 +137,11 @@ Lambda Functions
 - These are a way to represent a function without giving it a variable name.
 - Lambda functions can come in handy when you need to pass a function as an argument to another Python function, such as the sorted function that sorts a list of values.  
 
+
+Anatomy of a Class
+------------------------------
+<br>
+
+Instance Attributes
+------------------------------
+- 
