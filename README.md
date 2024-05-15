@@ -138,10 +138,18 @@ Lambda Functions
 - Lambda functions can come in handy when you need to pass a function as an argument to another Python function, such as the sorted function that sorts a list of values.  
 
 
-Anatomy of a Class
-------------------------------
-<br>
+User Stories
+--------------------------
+- User stories are a fundamental concept in Agile development, designed to capture a description of a software feature from an end-user perspective.
+- User stories guide the development process, ensuring that the software meets the needs of the users.
 
-Instance Attributes
-------------------------------
+Use Cases
+--------------------------
+- A use case is a description of how a user interacts with a system to achieve a specific goal.
+- use cases are used to capture the functional requirements of a system
+- They describe the sequence of steps, including interactions between a user and the system
+
+
+Writing and Formatting Email Messages
+------------------------------------------
 - 
